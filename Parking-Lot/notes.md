@@ -89,7 +89,11 @@ It will park the car and remove the car and keep a track of where the car is par
 
 ### Parking Garage
 
-The parking garage will contain parking floors. Parking Garage will have park vehicle and remove vehicle methods
+The parking garage will contain parking floors. Parking Garage will have park vehicle and remove vehicle methods.
+
+The Parking Floors cannot exist independently without the Parking Garage. We create an instance of Parking Floors for each floor. This relationship is composition ("has-a") relationship.
+
+Composition is a stronger form of a "has-a" relationship than Aggregation. In Aggregation, the child object can exist without the parent but this is not the case in Composition.
 
 ### Parking System
 
